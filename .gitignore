@@ -28,3 +28,6 @@ Thumbs.db
 *.sln
 *.user
 *.tmp
+*.tga
+*.exr
+*.tif
