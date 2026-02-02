@@ -435,6 +435,8 @@ MonoBehaviour:
     m_SubObjectGUID: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
+  assetLabelReference:
+    m_LabelString: environment
 --- !u!4 &1318496967
 Transform:
   m_ObjectHideFlags: 0

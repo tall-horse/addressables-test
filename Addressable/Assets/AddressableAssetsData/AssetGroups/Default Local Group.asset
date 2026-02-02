@@ -18,7 +18,8 @@ MonoBehaviour:
   - m_GUID: c1ec9388823348a6585f4727b26c95e5
     m_Address: Assets/Prefabs/Heavy Asset.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - environment
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d6216a10f8edd5f31acf1d7870e56565, type: 2}
