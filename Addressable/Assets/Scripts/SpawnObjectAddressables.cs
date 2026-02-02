@@ -7,16 +7,14 @@ namespace Unity.FantasyKingdom
 {
     public class SpawnObjectAddressables : MonoBehaviour
     {
+        [SerializeField] private AssetReference assetReference;
         void Update()
         {
             if(Input.GetKeyDown(KeyCode.T))
             {
-                AsyncOperationHandle<GameObject> asyncOperationHandle = Addressables.LoadAssetAsync<GameObject>("Assets/Prefabs/Heavy Asset.prefab");
-
-                asyncOperationHandle.Completed += OnWorldLoadCompleted;
+                assetReference.LoadAssetAsync<GameObject>().Completed += OnWorldLoadCompleted;
             }
         }
-
         private void OnWorldLoadCompleted(AsyncOperationHandle<GameObject> asyncOperationHandle)
         {
             if(asyncOperationHandle.Status == AsyncOperationStatus.Succeeded)
