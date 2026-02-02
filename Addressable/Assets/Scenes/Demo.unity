@@ -435,6 +435,18 @@ MonoBehaviour:
     m_SubObjectGUID: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
+  assetReferenceGameObject:
+    m_AssetGUID: c1ec9388823348a6585f4727b26c95e5
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  assetReferenceAudioClip:
+    m_AssetGUID: 99f1188e4dc28234a89d210c39b2264e
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   assetLabelReference:
     m_LabelString: environment
 --- !u!4 &1318496967

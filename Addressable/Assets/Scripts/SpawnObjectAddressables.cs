@@ -5,16 +5,24 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 namespace Unity.FantasyKingdom
 {
+    [Serializable]
+    public class AssetReferenceAudioClip : AssetReferenceT<AudioClip>
+    {
+        public AssetReferenceAudioClip(string guid) : base(guid)
+        {
+        }
+    }
     public class SpawnObjectAddressables : MonoBehaviour
     {
         [SerializeField] private AssetReference assetReference;
         [SerializeField] private AssetReferenceGameObject assetReferenceGameObject;
+        [SerializeField] private AssetReferenceAudioClip assetReferenceAudioClip;
         [SerializeField] private AssetLabelReference assetLabelReference;
         void Update()
         {
             if(Input.GetKeyDown(KeyCode.T))
             {
-                assetReferenceGameObject.LoadAssetAsync<GameObject>().Completed += OnWorldLoadCompleted;
+                assetReferenceGameObject.InstantiateAsync();
             }
         }
         private void OnWorldLoadCompleted(AsyncOperationHandle<GameObject> asyncOperationHandle)

@@ -1326,3 +1326,134 @@ Memory consumption went from 193.6 MB to 183.4 MB.
 Total: 10.913746 ms (FindLiveObjects: 0.797727 ms CreateObjectMapping: 0.714047 ms MarkObjects: 4.465282 ms  DeleteObjects: 4.936270 ms)
 
 Prepare: number of updated asset objects reloaded= 2
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.491 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 1047ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (428ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8373 unused Assets / (10.3 MB). Loaded Objects now: 9206.
+Memory consumption went from 194.5 MB to 184.1 MB.
+Total: 11.533523 ms (FindLiveObjects: 1.032856 ms CreateObjectMapping: 0.702487 ms MarkObjects: 4.798521 ms  DeleteObjects: 4.999319 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 41455.685464 seconds.
+  path: Assets/Audio/AudioFiles/02_walla/kids2_temp.wav
+  artifactKey: Guid(19119e13d0505f046a8d446c363c5630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioFiles/02_walla/kids2_temp.wav using Guid(19119e13d0505f046a8d446c363c5630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '534f65cf390773a5fb0a3ffdda85cc61') in 0.065250515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107345 seconds.
+  path: Assets/Audio/AudioFiles/02_walla/walla_af_1.wav
+  artifactKey: Guid(47e69f784c9e8814c97da967cc1364b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioFiles/02_walla/walla_af_1.wav using Guid(47e69f784c9e8814c97da967cc1364b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3a588b51becd472916d76ceb3964dd1') in 0.003526206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.159212 seconds.
+  path: Assets/Audio/AudioFiles/02_walla/walla_2.wav
+  artifactKey: Guid(1dd8eebb15cd9ba42b9fe2877b019e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioFiles/02_walla/walla_2.wav using Guid(1dd8eebb15cd9ba42b9fe2877b019e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37ec0438f85e85eca99580961eb552af') in 0.003568385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Audio/AudioFiles/02_walla/walla_d3.wav
+  artifactKey: Guid(46618d67f4f9eaa43b7dd9dbe7fe3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioFiles/02_walla/walla_d3.wav using Guid(46618d67f4f9eaa43b7dd9dbe7fe3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e5a10fa49f72555d1b6750c92b0ddf0') in 0.003418466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Audio/AudioFiles/02_walla/walla_af_2.wav
+  artifactKey: Guid(fe6ac5eea33f6434f94e6ca62bcf42f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioFiles/02_walla/walla_af_2.wav using Guid(fe6ac5eea33f6434f94e6ca62bcf42f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0553df19b528e2bc8dc9452810039e5a') in 0.003045418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Audio/AudioFiles/02_walla/walla_af_3.wav
+  artifactKey: Guid(c09b8280e5a9cef4a9dda7bb9f84eed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioFiles/02_walla/walla_af_3.wav using Guid(c09b8280e5a9cef4a9dda7bb9f84eed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd89767e811f5d6410f4f4f35477dfbb2') in 0.00253052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Vulkan PSO: data extracted [new size=49691, old size=0, incomplete=0]
+Vulkan PSO: Saved size[49691] path[/tmp/DefaultCompany/Addressable/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
+ #0 PlatformStacktrace::GetStacktrace(int)
+ #1 Stacktrace::GetStacktrace(int)
+ #2 DebugStringToFile(DebugStringToFileData const&)
+ #3 AssertImplementation(int, char const*, int, int, char const*)
+ #4 RenderTargetMap::Cleanup()
+ #5 DestroyGfxDevice()
+ #6 DoQuitEditorWithExitCode(int, bool)
+ #7 RunAssetImporterV2()
+ #8 Application::InitializeProject()
+ #9 InitializeUnity(void*)
+ #10 ???
+ #11 ???
+ #12 ???
+ #13 g_main_loop_run
+ #14 gtk_main
+ #15 main
+ #16 __libc_start_call_main
+ #17 __libc_start_main
+ #18 ???
+

@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 1ae209d681f792dc7ac628c083840044
   m_SerializeEntries:
+  - m_GUID: 99f1188e4dc28234a89d210c39b2264e
+    m_Address: Assets/Audio/AudioFiles/02_walla/kids1_temp.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c1ec9388823348a6585f4727b26c95e5
     m_Address: Assets/Prefabs/Heavy Asset.prefab
     m_ReadOnly: 0
