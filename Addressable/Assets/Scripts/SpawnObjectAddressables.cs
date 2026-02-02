@@ -8,12 +8,13 @@ namespace Unity.FantasyKingdom
     public class SpawnObjectAddressables : MonoBehaviour
     {
         [SerializeField] private AssetReference assetReference;
+        [SerializeField] private AssetReferenceGameObject assetReferenceGameObject;
         [SerializeField] private AssetLabelReference assetLabelReference;
         void Update()
         {
             if(Input.GetKeyDown(KeyCode.T))
             {
-                Addressables.LoadAssetAsync<GameObject>(assetLabelReference).Completed += OnWorldLoadCompleted;
+                assetReferenceGameObject.LoadAssetAsync<GameObject>().Completed += OnWorldLoadCompleted;
             }
         }
         private void OnWorldLoadCompleted(AsyncOperationHandle<GameObject> asyncOperationHandle)

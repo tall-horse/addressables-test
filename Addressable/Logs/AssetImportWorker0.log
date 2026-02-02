@@ -1319,3 +1319,58 @@ Memory consumption went from 193.6 MB to 183.2 MB.
 Total: 11.285104 ms (FindLiveObjects: 0.792817 ms CreateObjectMapping: 0.701807 ms MarkObjects: 4.809231 ms  DeleteObjects: 4.980829 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.489 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 1061ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (144ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (571ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (444ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8373 unused Assets / (10.1 MB). Loaded Objects now: 9207.
+Memory consumption went from 194.4 MB to 184.3 MB.
+Total: 10.328738 ms (FindLiveObjects: 0.876367 ms CreateObjectMapping: 0.455918 ms MarkObjects: 4.155793 ms  DeleteObjects: 4.840140 ms)
+
+Prepare: number of updated asset objects reloaded= 2
