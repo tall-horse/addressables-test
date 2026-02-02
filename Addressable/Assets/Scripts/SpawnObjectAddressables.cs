@@ -18,11 +18,17 @@ namespace Unity.FantasyKingdom
         [SerializeField] private AssetReferenceGameObject assetReferenceGameObject;
         [SerializeField] private AssetReferenceAudioClip assetReferenceAudioClip;
         [SerializeField] private AssetLabelReference assetLabelReference;
+
+        private GameObject spawnedGameObject;
         void Update()
         {
             if(Input.GetKeyDown(KeyCode.T))
             {
-                assetReferenceGameObject.InstantiateAsync();
+                assetReferenceGameObject.InstantiateAsync().Completed += (asyncOperation) => spawnedGameObject = asyncOperation.Result;
+            }
+            if(Input.GetKeyDown(KeyCode.U))
+            {
+                assetReferenceGameObject.ReleaseInstance(spawnedGameObject);
             }
         }
         private void OnWorldLoadCompleted(AsyncOperationHandle<GameObject> asyncOperationHandle)
